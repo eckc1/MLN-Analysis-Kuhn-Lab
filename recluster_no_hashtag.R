@@ -4,7 +4,7 @@ library(ggplot2)
 library(patchwork)
 
 # Ignore local RAM throttle 
-mem.maxVSize(vsize = Inf)
+#mem.maxVSize(vsize = Inf)
 # Load merged data
 dat <- readRDS("/Users/eckco/Desktop/Kuhn_Lab/Jing_Data/MLN/Demultiplexed/Original_dat_clustered.rds")
 head(dat)
