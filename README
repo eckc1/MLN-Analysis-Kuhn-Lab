@@ -1,0 +1,11 @@
+recluster_no_hashtag.R: This file reclusters the data after hashtag removal.
+
+Cluster_Calling_Clean.R: This file calls the clusters based on canonical markers and specific target markers. 
+
+CD4_TCell_Analysis_clean.R: DEG analysis on CD4 T cell subset
+
+BCell_Analysis_clean.R: DEG analysis on B cell subset
+
+CD4_Th17_Analysis_clean.R: DEG analysis on TH17 subset within CD4 subset. 
+
+VIP_Analysis.R: Uses partial least squares discriminant analysis (a form of supervised PCA) to determine which genes best distinguish each treatment group.
