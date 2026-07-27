@@ -5,7 +5,7 @@ library(patchwork)
 library(dplyr)
 
 # Ignore local RAM throttle 
-mem.maxVSize(vsize = Inf)
+#mem.maxVSize(vsize = Inf)
 # Load merged data
 dat <- readRDS("noHashtag_Reclustered.rds")
 head(dat)
