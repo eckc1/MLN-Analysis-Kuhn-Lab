@@ -9,6 +9,16 @@ mem.maxVSize(vsize = Inf)
 dat <- readRDS("/Users/eckco/Desktop/Kuhn_Lab/Jing_Data/MLN/Demultiplexed/Original_dat_clustered.rds")
 head(dat)
 Reductions(dat)
+
+# cells per mouse
+table(dat$sample_id)
+
+# cells per treatment
+table(dat$demux_id)
+
+# cells per mouse within each treatment
+table(dat$demux_id, dat$sample_id)
+
 transcript <- DimPlot(dat,label=TRUE, reduction = "wnn.umap")
 #ggsave(plot=transcript, filename="transcript_wnn.png")
 
