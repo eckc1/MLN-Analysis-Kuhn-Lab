@@ -1,3 +1,7 @@
+generate_seurat_objects_demultiplexed: Generates Seurat objects from raw cell ranger multi output.
+
+MLN_Downstream_Analysis.R: Initial quality control and feature plots. 
+
 recluster_no_hashtag.R: This file reclusters the data after hashtag removal.
 
 Cluster_Calling_Clean.R: This file calls the clusters based on canonical markers and specific target markers. 
